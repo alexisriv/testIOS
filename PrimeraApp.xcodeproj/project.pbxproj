@@ -12,6 +12,10 @@
 		FBD4051822A9760000E9FC62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD4051622A9760000E9FC62 /* Main.storyboard */; };
 		FBD4051A22A9760100E9FC62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD4051922A9760100E9FC62 /* Assets.xcassets */; };
 		FBD4051D22A9760100E9FC62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD4051B22A9760100E9FC62 /* LaunchScreen.storyboard */; };
+		FBD4052522AAF89900E9FC62 /* SiteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD4052422AAF89900E9FC62 /* SiteModel.swift */; };
+		FBD4052722B298CD00E9FC62 /* SitesMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD4052622B298CD00E9FC62 /* SitesMock.swift */; };
+		FBD4052A22B2C33400E9FC62 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD4052822B2C33400E9FC62 /* DetailViewController.swift */; };
+		FBD4052B22B2C33400E9FC62 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBD4052922B2C33400E9FC62 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		FBD4051922A9760100E9FC62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBD4051C22A9760100E9FC62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBD4051E22A9760100E9FC62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD4052422AAF89900E9FC62 /* SiteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteModel.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FBD4052622B298CD00E9FC62 /* SitesMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitesMock.swift; sourceTree = "<group>"; };
+		FBD4052822B2C33400E9FC62 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FBD4052922B2C33400E9FC62 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				FBD4051922A9760100E9FC62 /* Assets.xcassets */,
 				FBD4051B22A9760100E9FC62 /* LaunchScreen.storyboard */,
 				FBD4051E22A9760100E9FC62 /* Info.plist */,
+				FBD4052422AAF89900E9FC62 /* SiteModel.swift */,
+				FBD4052622B298CD00E9FC62 /* SitesMock.swift */,
+				FBD4052822B2C33400E9FC62 /* DetailViewController.swift */,
+				FBD4052922B2C33400E9FC62 /* DetailViewController.xib */,
 			);
 			path = PrimeraApp;
 			sourceTree = "<group>";
@@ -125,6 +137,7 @@
 				FBD4051D22A9760100E9FC62 /* LaunchScreen.storyboard in Resources */,
 				FBD4051A22A9760100E9FC62 /* Assets.xcassets in Resources */,
 				FBD4051822A9760000E9FC62 /* Main.storyboard in Resources */,
+				FBD4052B22B2C33400E9FC62 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBD4052722B298CD00E9FC62 /* SitesMock.swift in Sources */,
+				FBD4052522AAF89900E9FC62 /* SiteModel.swift in Sources */,
+				FBD4052A22B2C33400E9FC62 /* DetailViewController.swift in Sources */,
 				FBD4051522A9760000E9FC62 /* ViewController.swift in Sources */,
 				FBD4051322A9760000E9FC62 /* AppDelegate.swift in Sources */,
 			);
