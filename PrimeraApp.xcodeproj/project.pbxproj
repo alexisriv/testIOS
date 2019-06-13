@@ -9,20 +9,21 @@
 /* Begin PBXBuildFile section */
 		FBD4051322A9760000E9FC62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD4051222A9760000E9FC62 /* AppDelegate.swift */; };
 		FBD4051522A9760000E9FC62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD4051422A9760000E9FC62 /* ViewController.swift */; };
-		FBD4051822A9760000E9FC62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD4051622A9760000E9FC62 /* Main.storyboard */; };
 		FBD4051A22A9760100E9FC62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD4051922A9760100E9FC62 /* Assets.xcassets */; };
 		FBD4051D22A9760100E9FC62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD4051B22A9760100E9FC62 /* LaunchScreen.storyboard */; };
 		FBD4052522AAF89900E9FC62 /* SiteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD4052422AAF89900E9FC62 /* SiteModel.swift */; };
 		FBD4052722B298CD00E9FC62 /* SitesMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD4052622B298CD00E9FC62 /* SitesMock.swift */; };
 		FBD4052A22B2C33400E9FC62 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD4052822B2C33400E9FC62 /* DetailViewController.swift */; };
 		FBD4052B22B2C33400E9FC62 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBD4052922B2C33400E9FC62 /* DetailViewController.xib */; };
+		FBD4052D22B2D59700E9FC62 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBD4052C22B2D59700E9FC62 /* ViewController.xib */; };
+		FBD4053422B2DAFE00E9FC62 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD4053222B2DAFE00E9FC62 /* CustomTableViewCell.swift */; };
+		FBD4053522B2DAFE00E9FC62 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBD4053322B2DAFE00E9FC62 /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FBD4050F22A9760000E9FC62 /* PrimeraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD4051222A9760000E9FC62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBD4051422A9760000E9FC62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FBD4051722A9760000E9FC62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBD4051922A9760100E9FC62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBD4051C22A9760100E9FC62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBD4051E22A9760100E9FC62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -30,6 +31,9 @@
 		FBD4052622B298CD00E9FC62 /* SitesMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitesMock.swift; sourceTree = "<group>"; };
 		FBD4052822B2C33400E9FC62 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		FBD4052922B2C33400E9FC62 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		FBD4052C22B2D59700E9FC62 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		FBD4053222B2DAFE00E9FC62 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		FBD4053322B2DAFE00E9FC62 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +68,6 @@
 			children = (
 				FBD4051222A9760000E9FC62 /* AppDelegate.swift */,
 				FBD4051422A9760000E9FC62 /* ViewController.swift */,
-				FBD4051622A9760000E9FC62 /* Main.storyboard */,
 				FBD4051922A9760100E9FC62 /* Assets.xcassets */,
 				FBD4051B22A9760100E9FC62 /* LaunchScreen.storyboard */,
 				FBD4051E22A9760100E9FC62 /* Info.plist */,
@@ -72,6 +75,9 @@
 				FBD4052622B298CD00E9FC62 /* SitesMock.swift */,
 				FBD4052822B2C33400E9FC62 /* DetailViewController.swift */,
 				FBD4052922B2C33400E9FC62 /* DetailViewController.xib */,
+				FBD4052C22B2D59700E9FC62 /* ViewController.xib */,
+				FBD4053222B2DAFE00E9FC62 /* CustomTableViewCell.swift */,
+				FBD4053322B2DAFE00E9FC62 /* CustomTableViewCell.xib */,
 			);
 			path = PrimeraApp;
 			sourceTree = "<group>";
@@ -136,7 +142,8 @@
 			files = (
 				FBD4051D22A9760100E9FC62 /* LaunchScreen.storyboard in Resources */,
 				FBD4051A22A9760100E9FC62 /* Assets.xcassets in Resources */,
-				FBD4051822A9760000E9FC62 /* Main.storyboard in Resources */,
+				FBD4052D22B2D59700E9FC62 /* ViewController.xib in Resources */,
+				FBD4053522B2DAFE00E9FC62 /* CustomTableViewCell.xib in Resources */,
 				FBD4052B22B2C33400E9FC62 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBD4053422B2DAFE00E9FC62 /* CustomTableViewCell.swift in Sources */,
 				FBD4052722B298CD00E9FC62 /* SitesMock.swift in Sources */,
 				FBD4052522AAF89900E9FC62 /* SiteModel.swift in Sources */,
 				FBD4052A22B2C33400E9FC62 /* DetailViewController.swift in Sources */,
@@ -159,14 +167,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FBD4051622A9760000E9FC62 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FBD4051722A9760000E9FC62 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FBD4051B22A9760100E9FC62 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

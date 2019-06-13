@@ -23,15 +23,18 @@ class ViewController: UIViewController {
     func setupTableView() {
         tableView.dataSource = self
         tableView.delegate = self
+        let nibCell = UINib.init(nibName: String(describing: CustomTableViewCell.self), bundle: nil)
+        tableView.register(nibCell, forCellReuseIdentifier: "mycell")
     }
 }
+
 extension ViewController: UITableViewDataSource {
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return siteList.count
     }
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "mycell", for: indexPath)
         cell.textLabel?.text = "\(siteList[indexPath.row].id)"
         return cell
     }
