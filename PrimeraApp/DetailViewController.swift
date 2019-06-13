@@ -19,6 +19,14 @@ class DetailViewController: UIViewController {
         self.site = site
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        if #available(iOS 11.0, *) {
+            navigationItem.largeTitleDisplayMode = .never
+            navigationController?.navigationBar.prefersLargeTitles = false
+        }
+    }
+    
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -27,6 +35,7 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         idLabel.text = site.id
         datailLabel.text = site.name
+        self.title = "Site \(site.id)"
         // Do any additional setup after loading the view.
     }
     

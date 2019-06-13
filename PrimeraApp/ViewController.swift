@@ -17,7 +17,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        self.title = "Mi App"
         setupTableView()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        if #available(iOS 11.0, *) {
+            navigationItem.largeTitleDisplayMode = .always
+            navigationController?.navigationBar.prefersLargeTitles = true
+        }
     }
     
     func setupTableView() {
@@ -47,7 +56,8 @@ extension ViewController: UITableViewDelegate {
             //print("\(siteList[indexPath.row].name)")
         //}
         if let detailVC = DetailViewController(site: siteList[indexPath.row]){
-            self.present(detailVC, animated: true, completion: nil)
+            //self.present(detailVC, animated: true, completion: nil)
+            navigationController?.pushViewController(detailVC, animated: true)
         }
         tableView.deselectRow(at: indexPath, animated: true)
     }
