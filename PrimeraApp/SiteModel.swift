@@ -17,6 +17,7 @@ class SiteModel {
         guard let jsonData = SitesMock.siteJson.data(using: .utf8) else { return sites }
         do{
             sites = try JSONDecoder().decode([Site].self, from: jsonData)
+            print(sites[1].id)
             print("Ok Json Decoder")
         } catch {
             print("It failed!!")

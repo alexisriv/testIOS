@@ -13,7 +13,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="PrimeraApp" customModuleProvider="target">
             <connections>
                 <outlet property="datailLabel" destination="mvz-yX-OF7" id="G4I-8r-FMX"/>
-                <outlet property="idLabel" destination="fNX-Hi-6fO" id="3hl-eT-CmO"/>
+                <outlet property="idLabel" destination="fNX-Hi-6fO" id="rVg-l3-TsJ"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
